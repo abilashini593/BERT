@@ -31,7 +31,6 @@ Tools: NumPy, Pandas, Matplotlib, Scikit-learn
 ## Getting Started
 1. Clone the repository
 git clone https://github.com/abilashini593/BERT.git
-
 cd BERT/BERT-based_ATE_for_agriculture-main
 
 3. Install dependencies
