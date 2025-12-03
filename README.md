@@ -29,21 +29,32 @@ Language: Python
 Tools: NumPy, Pandas, Matplotlib, Scikit-learn
 
 ## Getting Started
-1. Clone the repository
+
+Clone the repository
+
 git clone https://github.com/abilashini593/BERT.git
 cd BERT/BERT-based_ATE_for_agriculture-main
 
-3. Install dependencies
+
+Install dependencies
+
 pip install -r requirements.txt
 
-4. Prepare the dataset
+
+Prepare the dataset
+
 python preprocessing/preprocess.py
 
-5. Train the model
+
+Train the model
+
 python train.py
 
-6. Evaluate the model
+
+Evaluate the model
+
 python evaluate.py
+
 
 ## Usage Instructions
 
