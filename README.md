@@ -31,18 +31,19 @@ Tools: NumPy, Pandas, Matplotlib, Scikit-learn
 ## Getting Started
 1. Clone the repository
 git clone https://github.com/abilashini593/BERT.git
+
 cd BERT/BERT-based_ATE_for_agriculture-main
 
-2. Install dependencies
+3. Install dependencies
 pip install -r requirements.txt
 
-3. Prepare the dataset
+4. Prepare the dataset
 python preprocessing/preprocess.py
 
-4. Train the model
+5. Train the model
 python train.py
 
-5. Evaluate the model
+6. Evaluate the model
 python evaluate.py
 
 ## Usage Instructions
@@ -60,11 +61,11 @@ Run all cells in the data loading and preprocessing sections.
 4.Choose a Fine-Tuning Configuration
 Select hyperparameters such as:
 
-Learning rate
+-Learning rate
 
-Batch size
+-Batch size
 
-Number of epochs
+-Number of epochs
 
 5.Train the BERT Model
 Execute the training cells to fine-tune the model on the agricultural term extraction dataset.
