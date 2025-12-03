@@ -1,8 +1,8 @@
-BERT-Based Agricultural Term Extraction (ATE)
+# BERT-Based Agricultural Term Extraction (ATE)
 
 A research project investigating how different fine-tuning configurations impact the performance of BERT for extracting agricultural domain-specific terms.
 
-Features
+## Features
 
 Evaluates multiple fine-tuning configurations of BERT
 
@@ -16,7 +16,7 @@ Modular code for easy reproducibility
 
 Visualizations for comparing model metrics
 
-Tech Stack
+## Tech Stack
 
 Model: BERT (Bidirectional Encoder Representations from Transformers)
 
@@ -28,7 +28,7 @@ Language: Python
 
 Tools: NumPy, Pandas, Matplotlib, Scikit-learn
 
-Getting Started
+## Getting Started
 1. Clone the repository
 git clone https://github.com/abilashini593/BERT.git
 cd BERT/BERT-based_ATE_for_agriculture-main
