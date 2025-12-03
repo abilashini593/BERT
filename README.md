@@ -45,25 +45,32 @@ python train.py
 5. Evaluate the model
 python evaluate.py
 
-🚀 Usage Instructions
+## Usage Instructions
 
-Once your environment is ready:
+Follow the steps below to run experiments and evaluate different fine-tuning configurations:
 
-Launch Jupyter Notebook:
+1.Start Jupyter Notebook
 
-jupyter notebook
+2.Open the Project Notebook
+Launch BERT_ATE_Experiments.ipynb from the Jupyter interface.
 
+3.Load and Preprocess the Dataset
+Run all cells in the data loading and preprocessing sections.
 
-Open the notebook:
-BERT_ATE_Experiments.ipynb
+4.Choose a Fine-Tuning Configuration
+Select hyperparameters such as:
 
-Load the dataset and run preprocessing cells.
+Learning rate
 
-Select a fine-tuning configuration (learning rate, batch size, epochs).
+Batch size
 
-Train the BERT model.
+Number of epochs
 
-Evaluate performance using:
+5.Train the BERT Model
+Execute the training cells to fine-tune the model on the agricultural term extraction dataset.
+
+6.Evaluate Model Performance
+Review the computed metrics:
 
 Precision
 
@@ -71,6 +78,8 @@ Recall
 
 F1-Score
 
-Compare multiple configurations to determine the best-performing setup.
+7.Compare Configurations
+Run experiments using different hyperparameter combinations and analyze the results to identify the best-performing setup.
 
-Review the graphs and evaluation metrics generated in the notebook.
+8.Review Outputs
+Examine generated graphs, logs, and evaluation tables to understand model behavior and experiment outcomes.
